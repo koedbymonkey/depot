@@ -1,4 +1,7 @@
 Depot::Application.configure do
+  config.action_mailer.delivery_method = :test
+end
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests

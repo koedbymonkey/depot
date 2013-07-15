@@ -1,0 +1,6 @@
+OrderNotifier#shipped
+
+def shipped(order)
+  @order = order
+  mail to: order.email, subject: 'Pragmatic Store Order Shipped'
+end
